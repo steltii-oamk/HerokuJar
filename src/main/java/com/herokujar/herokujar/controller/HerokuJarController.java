@@ -9,4 +9,9 @@ public class HerokuJarController {
     public String getHome() {
         return "Hello!";
     }
+
+    @GetMapping("test1")
+    public String getTest1() {
+        return "This is test1!";
+    }
 }
