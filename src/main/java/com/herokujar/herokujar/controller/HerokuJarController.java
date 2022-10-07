@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HerokuJarController {
     @GetMapping()
     public String getHome() {
-        return "HELLO WORLD!";
+        return "example";
     }
 }
